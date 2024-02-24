@@ -1,0 +1,173 @@
+/*
+   Olio Theme Responsive Design
+*/
+
+@media (max-width: 1200px) {
+    .hero-content h5{
+        font-size: 22px;
+    }
+    .hero-content h1{
+        font-size: 85px;
+    }
+    .hero-content p{
+        font-size: 14px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .hero-content h5{
+        font-size: 16px;
+    }
+    .hero-content h1{
+        font-size: 65px;
+    }  
+    .sm-padding{ padding: 15px; }
+    ul.nav > li > a {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .content-info{
+        padding-bottom: 65px;
+        padding-top: 0;
+    }
+    .pdl-80{ padding-left: 0 }
+    .offset-md-2{
+        margin-left: 0;
+    }
+    .service-wrap .order-three{
+        order: 4;
+    }
+    .service-wrap .order-four{
+        order: 3;
+    }
+}
+
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        line-height: 22px;
+    }
+    h1{
+        font-size: 40px!important;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .mock-hide{
+        display: none;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .xs-padding{
+    	padding: 15px;
+    }
+    .navbar-brand{
+        padding: 17px 0;
+    }
+    .menu-btn,
+    .menu-wrap ul.nav{
+        display: none;
+    }
+    .slicknav_menu {
+        display:block;
+    }
+    .contact-info{
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .contact-wrap { padding: 0px 0 60px; }
+    .contact-form{ padding-right: 0; }
+    .contact-form .col-md-12{ text-align: center; }
+    .portfolio-wrap .section-heading{
+        padding: 45px 0;
+    }
+    .cta-section .cta-content h2{ font-size: 20px; }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+/* ---- Start of max-width 615px CSS ---- */
+@media all and (max-width: 615px) {
+    .section-photos{
+        flex-direction: column;
+    }
+    .section-photos-row-text{
+        font-size: large;
+    }
+    .col-large{
+       height: 1100px;
+    }
+    .col-btn{
+        height: 200px;
+    }
+    .section-photos-row{
+        
+        height: 260px;
+    }
+    .col-margin{
+        margin-top: 50px;
+    }
+}
+/* ---- End of max-width 615px CSS ---- */
+
+/* ---- Start of max-width 540px CSS ---- */
+@media all and (max-width: 540px) {
+    #animation{
+        width: 280px;
+        font-size: 24px;
+        left: calc(50% - 140px);
+    }
+}
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 445px) {
+    .four{
+        width: 300px;
+        height: 300px;
+        left: calc(50% - 150px);
+    }
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 395px) {
+	.hero-content h5{
+        font-size: 12px;
+    }
+    .hero-content h1{
+        font-size: 60px;
+    }
+    .hero-content p{
+        font-size: 11px;
+    }
+    .section-photos-row-text{
+        font-size: medium;
+    }
+}
+/* ---- End of max-width 380px CSS ---- */
+
+@media all and (max-width: 300px) {
+    .hero-content h5{
+        padding-top: 30px
+    }
+    .hero-content p{
+        margin-top: 20px;
+    }
+	.four{
+        width: 250px;
+        height: 250px;
+        left: calc(50% - 125px);
+    }
+}
+
+
